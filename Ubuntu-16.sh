@@ -34,7 +34,7 @@ touch /root/auth.txt
 function style_osm_bright(){
 	cd /usr/local/share/maps/style
 	if [ ! -d 'osm-bright-master' ]; then
-		wget https://sethphat.com/osm-bright-master.zip
+		wget https://sethphat.com/master.zip
 		unzip master.zip;
 		mkdir -p osm-bright-master/shp
 		rm master.zip
